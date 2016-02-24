@@ -1,0 +1,18 @@
+
+
+<ion-view view-title="Search">
+  <ion-content>
+    <div class="list">
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" 
+          placeholder="Look for something" ng-model='query' ng-change='change(query)' >
+        </label>
+        <button class="button button-small" type="submit" ng-click="search()" >
+        Search
+        </button>
+      </div>
+      Temperature: {{temperature}}
+    </div>
+   </ion-content>
+</ion-view>
